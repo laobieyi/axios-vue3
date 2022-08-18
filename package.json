@@ -1,0 +1,44 @@
+{
+  "name": "vue3-cli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode development",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "npx eslint --fix src/"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.9.4",
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.4",
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.10",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@types/sass": "^1.43.1",
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-alloy": "^4.6.2",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "mockjs": "^1.1.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.0",
+    "sass-loader": "^8.0.2",
+    "unplugin-auto-import": "^0.10.0",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.21.1",
+    "vue-eslint-parser": "^9.0.3"
+  }
+}
